@@ -1,4 +1,4 @@
-# AI-based Severity Prediction for Paediatric Appendicitis
+# AI-based Severity Prediction for Paediatric Appendicitis.
 
 Modern AI models that predict **severe (complicated) vs non-severe** paediatric
 appendicitis, benchmarked **head-to-head** against the published models of
