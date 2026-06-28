@@ -1,0 +1,33 @@
+# ---- Downloaded data (DO NOT COMMIT) ----
+# UCI tabular data (regenerate with fetch_appendicitis.py)
+appendicitis_dataset.csv
+appendicitis_features.csv
+appendicitis_targets.csv
+appendicitis_variables.csv
+
+# Zenodo data (images + clinical table + paper test-set codes)
+US_Pictures.zip
+US_Pictures/
+app_data.xlsx
+test_set_codes.csv
+zenodo_README.md
+multiple_in_one
+multiple_in_one_
+
+# Copyrighted paper + extracted text
+*.pdf
+paper_text.txt
+
+# ---- Large / regenerable derived artifacts ----
+# foundation-model embeddings & cached predictions
+*.npz
+
+# CatBoost training logs
+catboost_info/
+
+# ---- Environments / caches ----
+.venv-tabpfn/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

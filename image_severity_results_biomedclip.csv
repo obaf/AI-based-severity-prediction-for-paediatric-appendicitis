@@ -1,0 +1,4 @@
+Encoder,Model,AUROC,AUROC_CI,AUPR,Sensitivity,Specificity,TN,FP,FN,TP,Threshold
+biomedclip,TabPFN (mean-pool),0.753,0.56-0.92,0.584,0.846,0.349,15,28,2,11,0.053
+biomedclip,LogReg (mean-pool),0.685,0.52-0.84,0.452,0.846,0.349,15,28,2,11,0.01
+biomedclip,Attention-MIL,0.728,0.54-0.90,0.584,0.846,0.279,12,31,2,11,0.004

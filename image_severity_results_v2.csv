@@ -1,0 +1,5 @@
+Encoders,Model,AUROC,AUROC_CI,AUPR,Sensitivity,Specificity,TN,FP,FN,TP,Threshold
+biomedclip+dinov2,TabPFN,0.83,0.67-0.96,0.756,0.769,0.651,28,15,3,10,0.073
+biomedclip+dinov2,CatBoost,0.716,0.54-0.87,0.476,0.769,0.465,20,23,3,10,0.074
+biomedclip+dinov2,LogReg,0.834,0.70-0.94,0.671,1.0,0.302,13,30,0,13,0.001
+biomedclip+dinov2,Ensemble,0.785,0.61-0.93,0.662,0.846,0.558,24,19,2,11,0.066

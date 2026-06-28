@@ -1,0 +1,25 @@
+# Python 3.11 required (TabPFN v2 / PyTorch wheels are not available on 3.14).
+# Create the environment with uv:
+#   uv venv --python 3.11 .venv-tabpfn
+#   uv pip install --python .venv-tabpfn -r requirements.txt
+
+# --- data access ---
+ucimlrepo
+openpyxl==3.1.5
+pdfplumber            # optional: only for re-extracting text from the paper PDF
+
+# --- core ML ---
+numpy
+pandas==2.3.3
+scikit-learn==1.6.1
+matplotlib
+tabpfn==2.0.9         # tabular foundation model (weights download freely from HF)
+catboost==1.2.10
+
+# --- image foundation models ---
+torch==2.12.1
+torchvision==0.27.1
+timm==1.0.27          # DINOv2 encoder
+open_clip_torch==3.3.0
+transformers==5.12.1  # required by BiomedCLIP text tower at load time
+pillow
