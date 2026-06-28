@@ -25,6 +25,16 @@ paper_text.txt
 # CatBoost training logs
 catboost_info/
 
+# ---- LaTeX build artifacts ----
+.tectonic/
+paper.log
+*.aux
+*.xdv
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+
 # ---- Environments / caches ----
 .venv-tabpfn/
 .venv/

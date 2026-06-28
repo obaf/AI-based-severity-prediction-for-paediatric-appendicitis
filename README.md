@@ -205,7 +205,8 @@ slightly higher AUROC comes with a degenerate high-sensitivity threshold (spec 0
 | `img_severity_model_v2.py` | **image** v2 fused-encoder ensemble (headline result) |
 | `final_master_plot.py` | master comparison figures |
 | `extract_pdf.py` | optional: extract text from the paper PDF |
-| `PAPER.md` | full academic paper (submission-ready, IEEE references) |
+| `PAPER.md` | full academic paper (Markdown, IEEE references) |
+| `paper.tex` | submission-ready IEEEtran LaTeX manuscript (compiles to a 6-page PDF) |
 | `SEVERITY_REPORT.md` | detailed tabular write-up |
 | `IMAGE_HEADTOHEAD_REPORT.md` | detailed image head-to-head write-up |
 | `requirements.txt` | pinned dependencies (Python 3.11) |
